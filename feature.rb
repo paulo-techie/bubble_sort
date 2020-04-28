@@ -12,7 +12,7 @@ def bubble_sort(array)
 end
 
 def bubble_sort_by(array)
-  loop do
+  loop do 
     moved = false
     (array.length - 1).times do |i|
       block_comparison = yield(array[i], array[i + 1])
