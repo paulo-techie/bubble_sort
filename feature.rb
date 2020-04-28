@@ -24,6 +24,7 @@ def bubble_sort_by(array)
     break unless moved
   end
 end
-  bubble_sort_by(%w[hi hello hey]) do |left, right|
-    left.length - right.length
-  end
+
+bubble_sort_by(%w[hi hello hey]) do |left, right|
+  left.length - right.length
+end
