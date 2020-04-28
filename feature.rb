@@ -10,7 +10,6 @@ def bubble_sort(array)
     break unless moved
   end
 end
-  puts bubble_sort([5, 1, 7, 9, 32])
 
 def bubble_sort_by(array)
   loop do
@@ -25,6 +24,6 @@ def bubble_sort_by(array)
     break unless moved
   end
 end
-  bubble_sort_by(["hi", "hello", "hey"]) do |left, right|
+  bubble_sort_by(['hi', 'hello', 'hey']) do |left, right|
     left.length - right.length
   end
