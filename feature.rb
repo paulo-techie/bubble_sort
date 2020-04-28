@@ -10,7 +10,7 @@ def bubble_sort(array)
     break unless moved
   end
 end
-  print bubble_sort([5, 1, 7, 9, 32])
+  puts bubble_sort([5, 1, 7, 9, 32])
 
 def bubble_sort_by(array)
   loop do
