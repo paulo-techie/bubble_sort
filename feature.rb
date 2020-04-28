@@ -9,6 +9,7 @@ def bubble_sort(array)
     end
     break unless moved
   end
+  array
 end
 
 def bubble_sort_by(array)
@@ -23,6 +24,7 @@ def bubble_sort_by(array)
     end
     break unless moved
   end
+  array
 end
 
 bubble_sort_by(%w[hi hello hey]) do |left, right|
